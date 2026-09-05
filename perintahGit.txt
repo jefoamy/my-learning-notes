@@ -1,0 +1,9 @@
+Perintah | Fungsi 
+'git init' | menginisialisasi repo Git baru di folder saat ini
+'git clone <url-repo>' | mengunduh/menyalin repository yg sudah dibuat di GitHub ke lokal.
+'git status' | memeriksa status file yang diubah, ditambahkan, atau belum di commit
+'git add .' | menambahkan semua perubahan file ke *staging area*
+'git commit -m "pesan komit"' | menyimpan perubahan file yang ada di *staging area* ke riwayat Git dengan pesan penjelasan
+'git push origin main' | mengunggah hasil commit lokal ke repository GitHub di branch utama atau main
+'git push origin main' | mengambil dan menggabungkan update terbaru dari GitHub ke lokal
+'git log --oneline' | menampilkan riwayat commit scr ringkas dan singkat
