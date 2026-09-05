@@ -1,6 +1,8 @@
 Perintah | Fungsi 
 'git init' | menginisialisasi repo Git baru di folder saat ini
 'git clone <url-repo>' | mengunduh/menyalin repository yg sudah dibuat di GitHub ke lokal.
+'git checkout main' | berpindah dari branch aktif saat ini ke cabang utama atau main
+'git checkout <nama-branch>' | berpindah dari branch aktif saat ini ke branch <>
 'git status' | memeriksa status file yang diubah, ditambahkan, atau belum di commit
 'git add .' | menambahkan semua perubahan file ke *staging area*
 'git commit -m "pesan komit"' | menyimpan perubahan file yang ada di *staging area* ke riwayat Git dengan pesan penjelasan
