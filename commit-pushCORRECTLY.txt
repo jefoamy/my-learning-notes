@@ -1,0 +1,9 @@
+CARA COMMIT-PUSH DENGAN BENAR
+  setelah kita mengerjakan proyek di main maupun branch, tentunya kita harus mengupdate progress kita ke Git & GitHub
+
+3 STEP WAJIB YANG HARUS DIKETIK DI TERMINAL SETELAH MENGERJAKAN SESUATU :
+    * ANTREKAN FILE (Staging) | berguna untuk mengumpulkan semua file yang sudah diubah/semua perubahan agar masuk ke antrean Git (staging), tandan ' .' artinya semua file
+        - 'git add .'
+    * MENGUNCI PERUBAHAN (Commit) | menyimpan rekaman atau mengunci-membungkus perubahan yg sudah diantrekan tadi, lengkap dengan penjelasannya "apa sih yang habis km lakuin/ubah"
+        - 'git commit -m "pesan perubahan"'
+    * MENGUPLOAD KE INTERNET-GitHub (Push) | 
