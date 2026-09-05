@@ -1,0 +1,17 @@
+STEP TO MAKE A BRANCH IN GIT
+* Pastikan berada di main branch
+* Pastikan branch utama 'main' terbarui (Already up to date)
+    - 'git switch main' | untuk berpindah ke main branch
+(jika bekerja tim, sinkroniasi/pull dulu branch main - untuk tujuan bilamana perubahan sudah dikerjakan oleh rekan, jadi repo internet dan di lokal sinkron)
+* Tarik/Pull kode terbaru dari GitHub
+    - git pull origin main
+* Buat nama branchnya
+    - 'git branch <nama-branch>' | perintah untuk membuat branch
+* Pindah ke branch yang sudah dibuat 
+    - 'git switch <nama-branch>' | untuk pindah ke branch yang baru saja dibuat
+    *alternative 
+        - 'git switch -c <nama-branch>' | step langsung untuk membuat sekaligus berpindah ke branch yg dibuat
+* Cek posisi sedang di branch mana
+    - 'git branch'
+* Jika sudah di branch tujuan, langsung kerjakan projek/tulis kode
+
