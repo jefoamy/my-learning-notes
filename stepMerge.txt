@@ -1,0 +1,31 @@
+STEP TO MERGE BRANCH KE MAIN DI GIT
+
+* Pastikan semua perubahan di branch yang akan di-merge sudah disimpan
+	- 'git status' | memeriksa status perubahan file
+	- 'git add .' | menambahkan semua perubahan ke *staging area*
+	- 'git commit -m "pesan komit"' | menyimpan perubahan ke riwayat Git
+* Pastikan sedang berada di branch yang akan digabungkan
+	- 'git branch' | melihat branch yang sedang aktif
+	- 'git switch <nama-branch>' | berpindah ke branch yang akan di-merge
+* Pindah ke branch utama atau main
+	- 'git switch main' | berpindah ke branch utama
+* Perbarui branch main dari GitHub
+	- 'git pull origin main' | mengambil update terbaru dari branch main di GitHub
+* Gabungkan branch ke main
+	- 'git merge <nama-branch>' | menggabungkan isi branch ke branch main
+	(ganti <nama-branch> dengan nama branch yang ingin digabungkan)
+* Jika terjadi *merge conflict*, buka file yang bermasalah lalu pilih perubahan yang ingin dipertahankan.
+	- 'git status' | melihat file yang mengalami konflik
+	- setelah konflik diperbaiki, jalankan 'git add <nama-file>'
+	- 'git commit -m "menyelesaikan merge conflict"' | menyelesaikan proses merge
+* Jika merge berhasil, unggah hasilnya ke GitHub
+	- 'git push origin main' | mengunggah branch main ke GitHub
+* Pastikan hasil merge sudah benar
+	- 'git log --oneline' | melihat riwayat commit secara ringkas
+	- 'git status' | memastikan tidak ada perubahan yang belum disimpan
+
+CONTOH:
+	- 'git switch main'
+	- 'git pull origin main'
+	- 'git merge fitur-login'
+	- 'git push origin main'
